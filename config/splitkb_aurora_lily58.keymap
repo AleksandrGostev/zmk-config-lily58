@@ -59,7 +59,7 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&tog 3  &trans   &trans   &trans   &trans   &trans                     &kp HOME              &none                  &trans  &trans  &trans  &kp INS
+&to 3   &trans   &trans   &trans   &trans   &trans                     &kp HOME              &none                  &trans  &trans  &trans  &kp INS
 &trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans
 &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans  &trans
 &trans  &kp F11  &kp F12  &kp F13  &kp F14  &trans   &trans    &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none   &none   &none   &none
@@ -96,7 +96,7 @@
 
         mac_lower_layer {
             bindings = <
-&tog 0  &trans   &trans   &trans   &trans   &trans                     &trans                &trans                 &trans  &trans  &trans  &trans
+&to 0   &trans   &trans   &trans   &trans   &trans                     &trans                &trans                 &trans  &trans  &trans  &trans
 &trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans
 &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans  &trans
 &trans  &kp F11  &kp F12  &kp F13  &kp F14  &trans   &trans    &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans  &trans
