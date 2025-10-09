@@ -76,10 +76,10 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &kp C_PREV  &kp C_PP   &kp LS(C_NEXT)  &trans         &kp HOME
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans      &trans     &trans          &kp MINUS      &kp END
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp LEFT  &kp DOWN    &kp UP     &kp RIGHT       &kp EQUAL      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &none     &none       &kp MINUS  &kp EQUAL       &kp BACKSLASH  &kp PIPE
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &kp C_PREV  &kp C_PP  &kp LS(C_NEXT)  &trans         &kp HOME
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans      &trans    &trans          &kp MINUS      &kp END
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LEFT  &kp DOWN    &kp UP    &kp RIGHT       &kp EQUAL      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &none     &none       &none     &none           &kp BACKSLASH  &kp PIPE
                         &trans  &trans  &trans  &trans    &trans  &trans    &trans      &trans
             >;
         };
@@ -106,10 +106,10 @@
 
         mac_raise_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans      &trans     &trans     &trans         &kp HOME
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp C_PP  &kp C_PREV  &trans     &trans     &kp C_NEXT     &kp END
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp LEFT  &kp DOWN    &kp UP     &kp RIGHT  &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans      &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp PIPE
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &kp C_PREV  &kp C_PP  &kp C_NEXT  &trans         &kp HOME
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans      &trans    &trans      &kp MINUS      &kp END
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LEFT  &kp DOWN    &kp UP    &kp RIGHT   &kp EQUAL      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans      &none     &kp EQUAL   &kp BACKSLASH  &kp PIPE
                         &trans  &trans  &trans  &trans    &trans  &trans    &trans      &trans
             >;
         };
